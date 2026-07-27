@@ -1,36 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Age Calculator — Find Your Exact Age in Years, Months & Days | Tabutility</title>
-    <meta name="description" content="Free age calculator. Find your exact age in years, months, days, weeks, and hours. See how many days until your next birthday. No sign-up, instant results." />
-    <meta name="keywords" content="age calculator, how old am i, age calculator by birthday, exact age calculator, days until birthday, date of birth calculator, free age calculator" />
-    <link rel="canonical" href="https://age-calculator.tabutility.com/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://age-calculator.tabutility.com/" />
-    <meta property="og:title" content="Age Calculator — Find Your Exact Age in Years, Months & Days" />
-    <meta property="og:description" content="Find your exact age in years, months, days, weeks, and hours. Free, no sign-up." />
-    <meta property="og:site_name" content="Tabutility" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Age Calculator — Find Your Exact Age in Years, Months & Days" />
-    <meta name="twitter:description" content="Find your exact age in years, months, days, weeks, and hours. Free, no sign-up." />
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎂</text></svg>" />
-    <meta name="robots" content="index, follow" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7039091592734005" crossorigin="anonymous"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-78VZWJ5B1W"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-78VZWJ5B1W');
-    </script>
-    <script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "WebApplication", "name": "Age Calculator", "url": "https://age-calculator.tabutility.com", "description": "Free online age calculator. Find your exact age in years, months, days, weeks, and hours instantly.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "provider": { "@type": "Organization", "name": "Tabutility", "url": "https://tabutility.com" } }
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Age Calculator — Tabutility</title>
+<meta name="description" content="Free online age calculator. Enter your date of birth to find your exact age in years, months and days."/>
+<meta name="keywords" content="age calculator, how old am i, date of birth calculator, age in years months days"/>
+<link rel="canonical" href="https://age-calculator.tabutility.com/"/>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎂</text></svg>"/>
+<meta property="og:title" content="Age Calculator"/>
+<meta property="og:description" content="Find your exact age in years, months and days instantly."/>
+<meta property="og:url" content="https://age-calculator.tabutility.com/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Tabutility"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Age Calculator"/>
+<meta name="twitter:description" content="Find your exact age in years, months and days instantly."/>
+<meta name="robots" content="index, follow"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-78VZWJ5B1W"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-78VZWJ5B1W');</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7039091592734005" crossorigin="anonymous"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Age Calculator","url":"https://age-calculator.tabutility.com/","description":"Free online age calculator. Enter your date of birth to find your exact age in years, months and days.","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"provider":{"@type":"Organization","name":"Tabutility","url":"https://tabutility.com"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Tabutility","item":"https://tabutility.com"},{"@type":"ListItem","position":2,"name":"Calculators","item":"https://tabutility.com"},{"@type":"ListItem","position":3,"name":"Age Calculator","item":"https://age-calculator.tabutility.com/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How does the age calculator work?","acceptedAnswer":{"@type":"Answer","text":"Enter your date of birth and it calculates the exact time elapsed since then in years, months and days."}},{"@type":"Question","name":"Is the Age Calculator free?","acceptedAnswer":{"@type":"Answer","text":"Yes — completely free, no sign-up needed."}},{"@type":"Question","name":"Can I use the Age Calculator on mobile?","acceptedAnswer":{"@type":"Answer","text":"Yes — works on any device."}},{"@type":"Question","name":"How accurate is the Age Calculator?","acceptedAnswer":{"@type":"Answer","text":"It calculates exact calendar age including leap years."}}]}</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#f1f5f9;min-height:100vh}
+nav{background:#1e293b;border-bottom:1px solid #334155;padding:14px 24px;display:flex;align-items:center;gap:16px}
+nav a{color:#94a3b8;text-decoration:none;font-size:14px}
+nav a:hover{color:#f1f5f9}
+nav .brand{color:#38bdf8;font-weight:700;font-size:18px}
+.ad-banner{background:#1e293b;border-bottom:1px solid #334155;padding:4px;text-align:center}
+#app{max-width:600px;margin:8px auto;padding:0 16px 40px}
+h1{font-size:26px;font-weight:700;color:#f1f5f9;margin:24px 0 6px;text-align:center}
+.subtitle{color:#94a3b8;font-size:14px;text-align:center;margin-bottom:24px}
+.card{background:#1e293b;border:1px solid #334155;border-radius:14px;padding:24px;margin-bottom:16px}
+label{display:block;font-size:13px;font-weight:600;color:#94a3b8;margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+input[type="date"]{width:100%;background:#0f172a;border:1px solid #334155;border-radius:8px;padding:12px 14px;color:#f1f5f9;font-size:16px;outline:none;transition:border-color .2s}
+input[type="date"]:focus{border-color:#38bdf8}
+input[type="date"]::-webkit-calendar-picker-indicator{filter:invert(1);opacity:.7;cursor:pointer}
+.btn{display:inline-block;background:#38bdf8;color:#0f172a;border:none;border-radius:8px;padding:12px 28px;font-size:15px;font-weight:700;cursor:pointer;margin-top:16px;width:100%;transition:background .2s}
+.btn:hover{background:#0ea5e9}
+.results{display:none;margin-top:0}
+.stats-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:12px}
+.stat{background:#0f172a;border:1px solid #334155;border-radius:10px;padding:16px;text-align:center}
+.stat .val{font-size:28px;font-weight:700;color:#38bdf8}
+.stat .lbl{font-size:12px;color:#94a3b8;margin-top:4px;text-transform:uppercase;letter-spacing:.04em}
+.hours-stat{background:#0f172a;border:1px solid #334155;border-radius:10px;padding:16px;text-align:center;margin-bottom:12px}
+.hours-stat .val{font-size:22px;font-weight:700;color:#a78bfa}
+.hours-stat .lbl{font-size:12px;color:#94a3b8;margin-top:4px}
+.birthday-box{background:#0f172a;border:1px solid #334155;border-radius:10px;padding:16px;text-align:center}
+.birthday-box .emoji{font-size:32px;margin-bottom:8px}
+.birthday-box .title{font-size:13px;font-weight:600;color:#94a3b8;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px}
+.birthday-box .val{font-size:18px;font-weight:700;color:#f1f5f9}
+.birthday-box .days{font-size:13px;color:#94a3b8;margin-top:4px}
+@media(max-width:480px){.stats-grid{grid-template-columns:repeat(2,1fr)}.stat .val{font-size:22px}}
+</style>
+</head>
+<body>
+<nav><span class="brand">⚡ Tabutility</span><a href="https://tabutility.com">← All Tools</a></nav>
+<div class="ad-banner"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7039091592734005" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
+<div id="app">
+  <h1>🎂 Age Calculator</h1>
+  <p class="subtitle">Enter your date of birth to find your exact age</p>
+  <div class="card">
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" max=""/>
+    <label for="calcdate" style="margin-top:16px">Age on Date (optional — defaults to today)</label>
+    <input type="date" id="calcdate"/>
+    <button class="btn" onclick="calculate()">Calculate Age</button>
+  </div>
+  <div class="results" id="results">
+    <div class="card">
+      <div class="stats-grid">
+        <div class="stat"><div class="val" id="r-years">0</div><div class="lbl">Years</div></div>
+        <div class="stat"><div class="val" id="r-months">0</div><div class="lbl">Months</div></div>
+        <div class="stat"><div class="val" id="r-days">0</div><div class="lbl">Days</div></div>
+        <div class="stat"><div class="val" id="r-weeks">0</div><div class="lbl">Weeks</div></div>
+      </div>
+      <div class="hours-stat">
+        <div class="val" id="r-hours">0</div>
+        <div class="lbl">Total Hours Lived (approx)</div>
+      </div>
+      <div class="birthday-box">
+        <div class="emoji">🎉</div>
+        <div class="title">Next Birthday</div>
+        <div class="val" id="r-next-date">—</div>
+        <div class="days" id="r-next-days">—</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="max-width:860px;margin-left:auto;margin-right:auto;margin-top:24px;margin-bottom:8px;padding:0 16px">
+  <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:20px 24px">
+    <h2 style="font-size:15px;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em;margin-bottom:14px">Related Tools</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px">
+      <a href="https://bmi-calculator.tabutility.com/" style="display:block;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:12px 16px;text-decoration:none;color:inherit">
+        <div style="font-size:13px;font-weight:600;color:#f1f5f9">BMI Calculator</div><div style="font-size:11px;color:#94a3b8;margin-top:2px">Calculators</div>
+      </a>
+      <a href="https://sleep-calculator.tabutility.com/" style="display:block;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:12px 16px;text-decoration:none;color:inherit">
+        <div style="font-size:13px;font-weight:600;color:#f1f5f9">Sleep Calculator</div><div style="font-size:11px;color:#94a3b8;margin-top:2px">Wellness</div>
+      </a>
+      <a href="https://due-date-calculator.tabutility.com/" style="display:block;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:12px 16px;text-decoration:none;color:inherit">
+        <div style="font-size:13px;font-weight:600;color:#f1f5f9">Due Date Calculator</div><div style="font-size:11px;color:#94a3b8;margin-top:2px">Calculators</div>
+      </a>
+      <a href="https://retirement-calculator.tabutility.com/" style="display:block;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:12px 16px;text-decoration:none;color:inherit">
+        <div style="font-size:13px;font-weight:600;color:#f1f5f9">Retirement Calculator</div><div style="font-size:11px;color:#94a3b8;margin-top:2px">Calculators</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div style="max-width:860px;margin-left:auto;margin-right:auto;margin-top:8px;margin-bottom:24px;padding:0 16px">
+  <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:20px 24px">
+    <h2 style="font-size:15px;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px">Frequently Asked Questions</h2>
+    <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:14px 0">
+      <div style="font-size:14px;font-weight:600;color:#f1f5f9;margin-bottom:6px">How does the age calculator work?</div>
+      <div style="font-size:13px;color:#94a3b8;line-height:1.5">Enter your date of birth and it calculates the exact time elapsed since then in years, months and days.</div>
+    </div>
+    <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:14px 0">
+      <div style="font-size:14px;font-weight:600;color:#f1f5f9;margin-bottom:6px">Is the age calculator free?</div>
+      <div style="font-size:13px;color:#94a3b8;line-height:1.5">Yes — completely free, no sign-up needed.</div>
+    </div>
+    <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:14px 0">
+      <div style="font-size:14px;font-weight:600;color:#f1f5f9;margin-bottom:6px">Can I use it on mobile?</div>
+      <div style="font-size:13px;color:#94a3b8;line-height:1.5">Yes — works on any device.</div>
+    </div>
+    <div style="padding:14px 0">
+      <div style="font-size:14px;font-weight:600;color:#f1f5f9;margin-bottom:6px">How accurate is it?</div>
+      <div style="font-size:13px;color:#94a3b8;line-height:1.5">It calculates exact calendar age including leap years.</div>
+    </div>
+  </div>
+</div>
+
+<div style="text-align:center;padding:8px">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7039091592734005" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<script>
+const dobInput = document.getElementById('dob');
+const calcdateInput = document.getElementById('calcdate');
+const today = new Date();
+const todayStr = today.toISOString().split('T')[0];
+dobInput.max = todayStr;
+calcdateInput.value = todayStr;
+calcdateInput.max = todayStr;
+
+function calculate() {
+  const dobVal = dobInput.value;
+  if (!dobVal) { alert('Please enter your date of birth.'); return; }
+  const dob = new Date(dobVal);
+  const calcVal = calcdateInput.value || todayStr;
+  const calc = new Date(calcVal);
+  if (dob > calc) { alert('Date of birth cannot be in the future.'); return; }
+
+  let years = calc.getFullYear() - dob.getFullYear();
+  let months = calc.getMonth() - dob.getMonth();
+  let days = calc.getDate() - dob.getDate();
+
+  if (days < 0) {
+    months--;
+    const prevMonth = new Date(calc.getFullYear(), calc.getMonth(), 0);
+    days += prevMonth.getDate();
+  }
+  if (months < 0) { years--; months += 12; }
+
+  const totalDays = Math.floor((calc - dob) / (1000*60*60*24));
+  const totalWeeks = Math.floor(totalDays / 7);
+  const totalHours = totalDays * 24;
+
+  document.getElementById('r-years').textContent = years.toLocaleString();
+  document.getElementById('r-months').textContent = months;
+  document.getElementById('r-days').textContent = days;
+  document.getElementById('r-weeks').textContent = totalWeeks.toLocaleString();
+  document.getElementById('r-hours').textContent = totalHours.toLocaleString();
+
+  // Next birthday
+  let nextBday = new Date(calc.getFullYear(), dob.getMonth(), dob.getDate());
+  if (nextBday <= calc) nextBday.setFullYear(calc.getFullYear() + 1);
+  const daysUntil = Math.ceil((nextBday - calc) / (1000*60*60*24));
+  const bdayAge = nextBday.getFullYear() - dob.getFullYear();
+  const opts = {month:'long',day:'numeric',year:'numeric'};
+  document.getElementById('r-next-date').textContent = nextBday.toLocaleDateString('en-GB', opts) + ' (turns ' + bdayAge + ')';
+  document.getElementById('r-next-days').textContent = daysUntil === 0 ? '🎉 Happy Birthday!' : daysUntil + ' days away';
+
+  document.getElementById('results').style.display = 'block';
+  document.getElementById('results').scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+dobInput.addEventListener('keydown', e => { if(e.key==='Enter') calculate(); });
+</script>
+</body>
 </html>
