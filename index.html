@@ -225,5 +225,34 @@ dobInput.addEventListener('keydown', e => { if(e.key==='Enter') calculate(); });
     <div style="font-size:10px;color:#475569;margin-top:3px">As an Amazon Associate we earn from qualifying purchases.</div>
   </div>
 </div>
+
+<section id="seo-content">
+  <style>
+    #seo-content{max-width:760px;margin:2.5rem auto;padding:0 1.25rem 3rem;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;color:#334155;line-height:1.7}
+    #seo-content h2{font-size:1.35rem;color:#0f172a;margin:2rem 0 .75rem}
+    #seo-content h3{font-size:1.05rem;color:#0f172a;margin:1.25rem 0 .5rem}
+    #seo-content p,#seo-content li{font-size:.95rem}
+    #seo-content .example{background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:1rem 1.25rem;margin:1rem 0}
+    @media (prefers-color-scheme:dark){#seo-content{color:#cbd5e1}#seo-content h2,#seo-content h3{color:#f1f5f9}#seo-content .example{background:#1e293b;border-color:#334155}}
+  </style>
+  <p>This age calculator tells you exactly how old you are in years, months, and days from your date of birth, and counts down to your next birthday. It is handy for filling out forms, checking eligibility ages, planning celebrations, or simply satisfying curiosity about how many days you have been alive.</p>
+
+  <h2>How the Age Calculator Works</h2>
+  <p>The tool compares your date of birth to a target date (today by default) and breaks the gap down the way people actually count age. It first counts complete years, then the leftover complete months, then the remaining days &mdash; correctly handling months of different lengths and leap years so February 29 birthdays are respected.</p>
+  <p>Because calendar months are not all the same length, age is not a simple division. The calculator "borrows" days from the previous month when the target day is earlier than the birth day, which is why your age in months and days always adds up to a real, verifiable date rather than a rounded estimate.</p>
+
+  <div class="example"><strong>Example 1:</strong> Born on 15 March 1990, on 20 June 2026 you would be 36 years, 3 months, and 5 days old.</div>
+  <div class="example"><strong>Example 2:</strong> Someone born 29 February 2000 has a "true" birthday only in leap years, so this calculator counts their age accurately using the actual calendar.</div>
+
+  <h2>Frequently Asked Questions</h2>
+  <h3>How do you calculate age from a date of birth?</h3>
+  <p>Subtract the birth year from the current year, then adjust down by one if the current month and day are earlier than the birth month and day. This tool does that automatically and also shows the leftover months and days.</p>
+  <h3>How is age calculated for someone born on February 29?</h3>
+  <p>Leap-day birthdays are counted using the real calendar, so a full year is added only once the date has passed. Many people celebrate on February 28 or March 1 in common years, but the exact age still increments correctly.</p>
+  <h3>Can I calculate age between two specific dates?</h3>
+  <p>Yes. Enter your date of birth and any target date to find your exact age on that day &mdash; useful for checking eligibility on a past or future deadline.</p>
+  <h3>How many days old am I?</h3>
+  <p>The calculator counts the total number of days between your birth date and the chosen date, which is a fun way to see milestones like your 10,000th or 20,000th day alive.</p>
+</section>
 </body>
 </html>
